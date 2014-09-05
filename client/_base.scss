@@ -1,0 +1,14 @@
+///////////////////////// Imports /////////////////////////
+
+@import "lib/bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
+@import "lib/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
+
+///////////////////////// Mixins /////////////////////////
+
+@mixin floating-box {
+	border: solid 1px rgb(180, 180, 180) !important;
+	box-shadow: 10px 10px 10px #999999;
+	border-radius: 4px;
+
+//	overflow: hidden !important;
+}

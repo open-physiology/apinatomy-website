@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ApiNATOMY</title>
+    <script data-main="/main" src="/lib/requirejs/require.js"></script>
+</head>
+<body class="container" ng-controller="SiteController">
+
+
+<nav class="navbar navbar-default" role="navigation">
+
+    <!-- Brand and reactive overflow button -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+            <img src="/site/logo.png" style="position: relative; top: -26px;">
+        </a>
+    </div>
+
+    <ul class="nav nav-navbar navbar-right navbar-header">
+        <li>
+            <a href="//plus.google.com/u/0/110515170838750916199?prsrc=3" rel="publisher" target="_top"
+               style="text-decoration:none; height: 80px; width: 80px; display: flex; justify-content: center; align-items: center;">
+                <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+"
+                     style="border:0;width:32px;height:32px;"/>
+            </a>
+        </li>
+    </ul>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li ng-class="{active: $route.current.controller === 'HomeController'}"><a href="/home">Home</a></li>
+            <li ng-class="{active: $route.current.controller === 'DevelopmentController'}"><a href="/development">Development</a>
+            <li><a href="{{mailto1}}:{{mailto2}}@{{mailto3}}.{{mailto4}}">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+
+
+<main ng-view></main>
+
+
+</body>
+</html>

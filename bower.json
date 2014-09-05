@@ -1,0 +1,28 @@
+{
+  "name": "apinatomy-website",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mhelvens/apinatomy-website",
+  "authors": [
+    "Michiel Helvensteijn <mhelvens@gmail.com>"
+  ],
+  "main": "client/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.23",
+    "requirejs": "~2.1.14",
+    "lodash": "~2.4.1",
+    "requirejs-domready": "~2.0.1",
+    "angular-bootstrap": "~0.11.0",
+    "bootstrap-sass-official": "~3.2.0+2",
+    "require-css": "~0.1.5",
+    "angular-route": "~1.2.23"
+  }
+}
