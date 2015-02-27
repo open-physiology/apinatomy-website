@@ -1,0 +1,5 @@
+To start the server, run:
+
+forever start -a -l forever.log -o out.log -e err.log server/server.js
+
+This starts the website on port 8851. The root account can then route this to port 80.
