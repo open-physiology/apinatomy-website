@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="ApiNATOMY Website">
+  <component name="PublishConfigData" serverName="Linode (apinatomy-website)">
     <serverData>
-      <paths name="ApiNATOMY Website">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/website" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="DigitalOcean (amy-website)">
         <serverdata>
           <mappings>
             <mapping deploy="website" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Linode (apinatomy-website)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/website" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

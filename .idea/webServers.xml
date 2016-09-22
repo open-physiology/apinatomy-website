@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="862f64a9-6a25-4411-9400-79498e4772a2" name="Linode (apinatomy-website)" url="http://www.apinatomy.org">
+        <fileTransfer host="apinatomy.org" port="22" rootFolder="/home/apinatomy-website" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
