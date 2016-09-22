@@ -22,6 +22,7 @@
   <component name="ProjectKey">
     <option name="state" value="https://github.com/mhelvens/apinatomy-website.git" />
   </component>
-  <component name="ProjectRootManager" version="2" />
+  <component name="UnicodeBrowser">
+    <option name="fontName" value="Monospaced" />
+  </component>
 </project>
-

@@ -1,4 +1,4 @@
-@import "base";
+@import "../base";
 
 #references ol {
 
@@ -8,7 +8,7 @@
 		display: inline-block;
 		font-weight: bold;
 		border: dotted 1px lightgray;
-		padding: 0px 3px;
+		padding: 0 3px;
 		color: rgb(51, 51, 51);
 
 		&:hover {

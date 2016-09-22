@@ -1,13 +1,6 @@
 <component name="libraryTable">
   <library name="bower_components" type="javaScript">
-    <properties>
-      <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/client/lib" />
-      </sourceFilesUrls>
-    </properties>
-    <CLASSES>
-      <root url="file://$PROJECT_DIR$/client/lib" />
-    </CLASSES>
+    <CLASSES />
     <SOURCES />
   </library>
 </component>
